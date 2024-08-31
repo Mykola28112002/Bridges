@@ -9,6 +9,7 @@ import ProfileScreen from './src/screens/ProfileScreen/ProfileScreen.js';
 const Stack = createStackNavigator();
 
 export default function App() {
+  // console.log('HELLO')
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Auth">
